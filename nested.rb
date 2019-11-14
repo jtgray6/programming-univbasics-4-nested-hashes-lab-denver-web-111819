@@ -68,10 +68,6 @@ def adding_matz
 
 	programmer_hash = 
  		{
-        :yushihiro => {
-          :known_for => "Ruby",
-          :languages => ["LISP", "C"]
-        },  
           :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
@@ -87,7 +83,7 @@ def adding_matz
      
  		}
 
-    programmer_hash[:yushihiro]
+    programmer_hash.merge({:})
 end
 
 def changing_alan
